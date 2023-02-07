@@ -9,7 +9,7 @@
     }
 
 
-    function displayResult(argComputerMove, argPlayerMove){
+    const displayResult = function (argComputerMove, argPlayerMove){
       console.log('moves:', argComputerMove, argPlayerMove);
       if( argComputerMove == argPlayerMove ) printMessage('Mamy remis!');
       else if(( argComputerMove == 'kamień' && argPlayerMove == 'papier' ) || ( argComputerMove == 'papier' && argPlayerMove == 'nożyce') || ( argComputerMove == 'nożyce' && argPlayerMove == 'kamień'))

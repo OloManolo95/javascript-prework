@@ -2,7 +2,7 @@
   const playGame = function (playerInput){
     clearMessages();
 
-    function getMoveName(numberMove){
+    const getMoveName = function (numberMove){
       if(numberMove == 1) return 'kamień'
       if(numberMove== 2) return 'papier'
       if(numberMove == 3) return 'nożyce'

@@ -1,0 +1,129 @@
+/* Variables */
+
+$font-header: 'Roboto Mono', monospace;
+
+
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1597873073606-0f9f1fe4ba92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    height: 580px;
+    background-color: #16a085;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 120px;
+    font-family: $font-header;
+    width: 1100px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 120px;
+    line-height: 1.4;
+    color: white;
+    font-variant: all-small-caps;
+}
+
+.fa-regular {
+    color: #f6e58d;
+}
+
+.fa-gem {
+    color: #b9f2ff;
+}
+
+button {
+    display: inline-block;
+    min-width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 100px;
+    background-color: transparent;
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    position: relative;
+    top: -150px;
+
+}
+
+#messages {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* timer
+#timer {
+    background-color: #000;
+    color: #fff;
+    font-size: 150px;
+    height: 17vh;
+    position: relative;
+    width: 100vw;
+}
+
+.animation {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100vw;
+}
+
+#timer1, #timer2, #timer3 {
+    text-align: center;
+    visibility: hidden;
+}
+
+@keyframes hide {
+    0% {
+        visibility: visibile;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes show {
+    0%, 100% {
+        visibility: visible;
+    }
+}
+
+#time1 {
+    animation-duration: 1s;
+    animation-name: hide;
+    animation-timing-function: ease-in-out;
+}
+
+#time2 {
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: hide;
+    animation-timing-function: ease-in-out;
+}
+
+#time3 {
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: hide;
+    animation-timing-function: ease-in-out;
+}
+*/

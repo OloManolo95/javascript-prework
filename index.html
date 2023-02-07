@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="container">
-		<div id="buttons">
-			<button type="button" id="play-rock">Kamień</button>
-			<button type="button" id="play-paper">Papier</button>
-			<button type="button" id="play-scissors">Nożyce</button>
-		</div>
-		<div id="messages"></div>
-	</div>
-	<script src="js/functions.js"></script>
-	<script src="js/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Kamień, papier, nożyce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Witaj towarzyszu! W końcu dotarłeś.</h1>
+      <h2>
+        Zaczynajmy...<br>
+        na "trzy" kliknij swój wybór.<br>Gramy do trzech a wygrany zgarnia
+        wszystko !<i class="fa-gem fa-regular "></i>
+      </h2>
+    </header>
+    <!--
+    <div id="timer">
+      <div class="animation" id="time1">1</div>
+      <div class="animation" id="time2">2</div>
+      <div class="animation" id="time3">3</div>
+    </div>-->
+    <div class="container">
+      <div id="buttons">
+        <button type="button" id="play-rock"><i class="fa-regular fa-hand-back-fist"></i>.</button>
+        <button type="button" id="play-paper"><i class="fa-regular fa-hand"></i>.</button>
+        <button type="button" id="play-scissors"><i class="fa-regular fa-hand-scissors"></i>.</button>
+      </div>
+      <div id="messages">
+      </div>
+      <div id="result">
+        <div class="Score">
+          <div id="playerScore">0</div>
+          <div id="computerScore">0</div>
+        </div>
+      </div>
+    </div>
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

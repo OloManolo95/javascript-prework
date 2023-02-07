@@ -18,13 +18,13 @@
 
     }
 
-    let randomNumber = Math.floor(Math.random() * 3 + 1); // 3
+    const randomNumber = Math.floor(Math.random() * 3 + 1); // 3
     console.log('Wylosowana liczba to: ' + randomNumber);
-    let computerMove = getMoveName(randomNumber); // nożyce
+    const computerMove = getMoveName(randomNumber); // nożyce
     printMessage('Mój ruch to: ' + computerMove);
 
     /*let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.'); */// 1
-    let playerMove = getMoveName(playerInput); // 'kamień'
+    const playerMove = getMoveName(playerInput); // 'kamień'
     printMessage('Twój ruch to: ' + playerMove);
 
     displayResult(computerMove, playerMove)
